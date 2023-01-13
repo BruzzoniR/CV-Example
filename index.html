@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+    <title>Curriculm Vitae</title>
+    <link rel="icon" type="image/x-icon" href="./img/Logo.png">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Curriculm Vitae</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+                aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./datos.html">Datos personales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./estudios.html">Estudios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./experiencia.html">Experiencia Laboral</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            aria-expanded="false">Contacto</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="mailto:gavin.gutierrez@example.com">Escríbeme un email</a></li>
+                            <li><a class="dropdown-item" href="https://www.linkedin.com/in/GutierrezG/">Linkedin</a></li>
+                            <li><a class="dropdown-item" href="https://github.com/GutierrezG/">Github</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="b-example-divider"></div>
+
+    <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg" id="bloque_principal">
+            <div class="col-lg-6 col-md-12 p-3 p-md-5 pt-md-3">
+                <h2 class="display-7 mb-0">¡Hola! Mi nombre es</h2>
+                <h1 class="display-4 fw-bold lh-1">GAVIN GUTIERREZ</h1>
+                <p class="lead">¡Gracias por interesarte en mi trabajo! Te invito a que recorras este CV para conocer
+                    mejor mis habilidades y si estás interesado, me contactes por el medio que te sea más accesible.</p>
+                <p class="lead">Soy un desarrollador web que trabaja con Javascript, HTML 5 y CSS 3, frameworks y que se
+                    desenvuelve en el área de Front-End.</p>
+                <p class="lead">
+                    ¡Contáctate conmigo!
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                        <button type="button" class="btn btn-outline-primary btn-lg px-4 fw-bold" onclick="window.open('https://www.linkedin.com/in/GutierrezG/');"><i class="fa-brands fa-linkedin"></i> Linkedin</button>
+                        <button type="button" class="btn btn-outline-dark btn-lg px-4 fw-bold" onclick="window.open('https://github.com/GutierrezG/');"><i class="fa-brands fa-github"></i> Github</button>
+                        <button type="button" class="btn btn-outline-danger btn-lg px-4 fw-bold" onclick="window.open('mailto:gavin.gutierrez@example.com');"><i class="fa-regular fa-envelope"></i> Mail</button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 offset-md p-0 overflow-hidden">
+                <img class="rounded-3" src="./img/foto.png" alt="Foto de Gavin Gutierrez" width="auto" id="foto_personal">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">&copy; 2023 GG, Inc</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          </a>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/460bdc1fbb.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
