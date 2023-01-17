@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,700&display=swap');
+
 #foto_personal , #trabajo1{
   animation: slideInRight;
   animation-duration: 1s;
+}
+
+.titulares{
+  font-family: 'Chivo', sans-serif;
 }
 
 .list-item:hover{
